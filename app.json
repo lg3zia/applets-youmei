@@ -1,26 +1,26 @@
 {
-  "pages":[
+  "pages": [
     "pages/home/home"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "常州优美国际",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "首页"
-    },
-    {
-      "pagePath": "pages/home/home",
-      "text": "新闻资讯"
-    },
-    {
-      "pagePath": "pages/home/home",
-      "text": "联系我们"
-    }
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "新闻资讯"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "联系我们"
+      }
     ]
   }
-
 }

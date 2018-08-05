@@ -1,24 +1,26 @@
 <!--pages/home/home.wxml-->
 <view>
-  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" current="currentIndex" duration="{{duration}}" bindtap='swiperItemClick' bindchange='swiperChanged'>
-    <block wx:for="{{imgUrls}}">
+  <swiper indicator-dots="{{swiperIndicatorDots}}" autoplay="{{swiperAutoplay}}" interval="{{swiperInterval}}" current="swiperCurrentIndex" duration="{{swiperDuration}}" bindtap='swiperItemClick' bindchange='swiperChanged'>
+    <block wx:for="{{swiperImgUrls}}">
       <swiper-item>
         <image src="{{item}}" />
       </swiper-item>
     </block>
   </swiper>
   <view class='company_address'>
-    <image class="icon_location" src="../img/icon_location.png" />
-    <text bindtap='goCompanyMap'>{{contact_address}}</text>
-    <text class='phone_call' bindtap='callme'>{{contact_number}}</text>
+    <view class="contact_location" bindtap='goCompanyMap'>
+      <image src="../img/icon_location.png" />
+      <text>{{contactAddress}}</text>
+    </view>
+    <text bindtap='callMe'>{{contactNumber}}</text>
   </view>
   <image src="{{img_hot}}" class='img_hot' />
-  <block wx:for="{{imgUrls}}">
-    <view class='products-items'>
-      <image src="{{item}}" class='products-left' />
-      <view class='products-right'>
-        <text>项目名称</text>
-        <text>项目简介</text>
+  <block wx:for="{{listImgUrls}}" wx:for-index="index">
+    <view class='list_products_item' bindtap='productItemClick' data-index="{{index}}">
+      <image src="{{item}}" class='left' />
+      <view class='right'>
+        <text class='name'>项目名称</text>
+        <text class='summary'>项目简介</text>
       </view>
     </view>
   </block>

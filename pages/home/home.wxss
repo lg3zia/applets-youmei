@@ -2,26 +2,23 @@
 
 swiper-item image {
   width: 100%;
+  height: 400rpx;
 }
 
 .company_address {
   margin: 10px;
   display: flex;
   flex-direction: row;
-  line-height: 30px;
-  height: 30px;
+  justify-content: space-between;
 }
 
-.icon_location {
-  margin: auto 0;
+.contact_location {
+}
+
+.contact_location image {
   width: 20px;
   height: 20px;
   margin-right: 10px;
-}
-
-.phone_call {
-  position: absolute;
-  right: 20px;
 }
 
 .img_hot {
@@ -29,17 +26,29 @@ swiper-item image {
   height: 120rpx;
 }
 
-.products-items {
+.list_products_item {
   display: flex;
   flex-direction: row;
+  margin-top: 4rpx;
+  margin-bottom: 4rpx;
 }
 
-.products-left {
+.list_products_item .left {
   width: 30%;
   height: 150rpx;
+  margin-right: 10rpx;
 }
 
-.products-right {
+.list_products_item .right {
   display: flex;
   flex-direction: column;
+}
+
+.list_products_item .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list_products_item .summary {
+  font-size: 14px;
 }
