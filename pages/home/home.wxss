@@ -16,9 +16,9 @@ swiper-item image {
 }
 
 .contact_location image {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 6px;
 }
 
 .img_hot {

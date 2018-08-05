@@ -3,7 +3,9 @@
     "pages/home/home",
     "pages/home/introduce_video",
     "pages/news/news",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/home/produce_item",
+    "pages/contacts/contacts"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
@@ -21,7 +23,7 @@
         "text": "新闻资讯"
       },
       {
-        "pagePath": "pages/news/news",
+        "pagePath": "pages/contacts/contacts",
         "text": "联系我们"
       }
     ]
