@@ -11,9 +11,9 @@ Page({
     swiperDuration: 2000,
     swiperCurrentIndex: 0,
     swiperImgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      'https://thumbnail0.baidupcs.com/thumbnail/7057f83ba94ea1d5e96230da3438ec12?fid=1913150091-250528-410965644799515&time=1533456000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-gMcx9f5GjD50RdnBRw9U%2BtiQ5wg%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5025759159262381584&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video',
+      'https://thumbnail0.baidupcs.com/thumbnail/96269b78bf20adea16d9b30fc63ec342?fid=1913150091-250528-249915975916087&time=1533456000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-IpOjbP9%2FrbvzUr3MhMPz49UoymM%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5025785132563268471&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video',
+      'https://thumbnail0.baidupcs.com/thumbnail/4205d6b78c034950c3a68f807112d2ef?fid=1913150091-250528-728351915268436&time=1533456000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-9qhFbG2Tv40IULoPR3dfaHxAzTQ%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5025794342760298255&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video'
     ],
     img_hot: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533233681024&di=a01631dbd72137ac84afad4b6c2439f9&imgtype=0&src=http%3A%2F%2Fwww.qncye.com%2Fhtml%2Fimages%2Fdianzhi.jpg',
     contactNumber: 19859180244,
@@ -88,12 +88,13 @@ Page({
   },
 
   swiperItemClick: function(e) {
+    /*视频赞不提供，没有免费托管的服务器
     wx.showToast({
       title: this.data.swiperCurrentIndex + "",
     })
     wx.navigateTo({
       url: 'introduce_video?' + this.data.swiperCurrentIndex,
-    })
+    })*/
   },
 
   goCompanyMap: function(e) {
