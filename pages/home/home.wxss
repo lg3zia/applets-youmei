@@ -34,7 +34,7 @@ swiper-item image {
 }
 
 .list_products_item .left {
-  width: 30%;
+  width: 36%;
   height: 150rpx;
   margin-right: 10rpx;
 }
@@ -42,6 +42,7 @@ swiper-item image {
 .list_products_item .right {
   display: flex;
   flex-direction: column;
+  width: 60%;
 }
 
 .list_products_item .name {

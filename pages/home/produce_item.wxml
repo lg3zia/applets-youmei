@@ -1,2 +1,6 @@
 <!--pages/home/produce_item.wxml-->
-<text>pages/home/produce_item.wxml</text>
+<image class='product_img' src='{{currentItem.imgPath}}'>
+</image>
+<rich-text class='product_detail'>
+{{currentItem.detail}}
+</rich-text>

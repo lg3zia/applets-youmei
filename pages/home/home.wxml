@@ -15,12 +15,12 @@
     <text bindtap='callMe'>{{contactNumber}}</text>
   </view>
   <image src="{{img_hot}}" class='img_hot' />
-  <block wx:for="{{listImgUrls}}" wx:for-index="index">
+  <block wx:for="{{listProducts}}" wx:key="id" wx:for-index="index">
     <view class='list_products_item' bindtap='productItemClick' data-index="{{index}}">
-      <image src="{{item}}" class='left' />
+      <image src="{{item.imgPath}}" class='left' />
       <view class='right'>
-        <text class='name'>项目名称</text>
-        <text class='summary'>项目简介</text>
+        <text class='name'>{{item.title}}</text>
+        <text class='summary'>{{item.summary}}</text>
       </view>
     </view>
   </block>
