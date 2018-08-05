@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/home/home"
+    "pages/home/home",
+    "pages/home/introduce_video",
+    "pages/news/news",
+    "pages/index/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
@@ -14,11 +17,11 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "pages/news/news",
         "text": "新闻资讯"
       },
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "pages/news/news",
         "text": "联系我们"
       }
     ]

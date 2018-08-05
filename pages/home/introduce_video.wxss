@@ -1,0 +1,14 @@
+/* pages/home/introduce_video.wxss */
+
+.introduce_video {
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
+}
+
+.introduce_video video {
+  width: 100%;
+}

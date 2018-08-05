@@ -91,6 +91,9 @@ Page({
     wx.showToast({
       title: this.data.swiperCurrentIndex + "",
     })
+    wx.navigateTo({
+      url: 'introduce_video?' + this.data.swiperCurrentIndex ,
+    })
   },
 
   goCompanyMap: function(e) {
