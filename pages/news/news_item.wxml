@@ -1,0 +1,6 @@
+<!--pages/news/news_item.wxml-->
+<image class='news_img' src='{{currentItem.imgPath}}'>
+</image>
+<rich-text class='news_detail'>
+{{currentItem.detail}}
+</rich-text>

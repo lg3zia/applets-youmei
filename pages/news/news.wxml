@@ -1,2 +1,12 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<view>
+<block wx:for="{{listNews}}" wx:key="id" wx:for-index="index">
+    <view class='list_news_item' bindtap='newsItemClick' data-index="{{index}}">
+      <image src="{{item.imgPath}}" class='left' />
+      <view class='right'>
+        <text class='name'>{{item.title}}</text>
+        <text class='summary'>{{item.summary}}</text>
+      </view>
+    </view>
+  </block>
+</view>

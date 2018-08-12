@@ -1,1 +1,29 @@
 /* pages/news/news.wxss */
+
+.list_news_item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rpx;
+  margin-bottom: 4rpx;
+}
+
+.list_news_item .left {
+  width: 36%;
+  height: 150rpx;
+  margin-right: 10rpx;
+}
+
+.list_news_item .right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.list_news_item .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.list_news_item .summary {
+  font-size: 14px;
+}

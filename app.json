@@ -1,12 +1,12 @@
 {
   "pages": [
-    
     "pages/home/home",
     "pages/home/introduce_video",
     "pages/news/news",
     "pages/index/index",
     "pages/home/produce_item",
-    "pages/contacts/contacts"
+    "pages/contacts/contacts",
+    "pages/news/news_item"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
