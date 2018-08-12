@@ -1,1 +1,20 @@
 /* pages/contacts/contacts.wxss */
+.contacts_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img_company {
+  display: flex;
+  margin: 0 auto;
+}
+
+text {
+  width: 100%;
+  margin: 10rpx;
+}
+
+.img_employee {
+  display: flex;
+  margin: 0 auto;
+}
