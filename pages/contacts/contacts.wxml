@@ -1,8 +1,8 @@
 <!--pages/contacts/contacts.wxml-->
 <view class='contacts_container'>
-<image src="../img/youmei_company.jpg" class='img_company'></image>
-<text>常州优美医疗科技有限公司，是一家以高科技美容仪器推广，合作，整形为一体的多元化公司，宗旨整合美业资源，合作共赢，倡导“有你，更美”，是美业的一颗璀璨新星，力争成为中国美业第一品牌。</text>
-<text>联系电话：19859180244</text>
-<text>微信预约：chengyongxiang123</text>
-<image src="../img/youmei_chengyongxiang.jpg" class='img_employee' mode='aspectFit'></image>
+  <image src="../img/youmei_company.jpg" class='img_company'></image>
+  <text>常州优美医疗科技有限公司，是一家以高科技美容仪器推广，合作，整形为一体的多元化公司，宗旨整合美业资源，合作共赢，倡导“有你，更美”，是美业的一颗璀璨新星，力争成为中国美业第一品牌。</text>
+  <text>联系电话：19859180244</text>
+  <text>微信预约：chengyongxiang123</text>
+  <image src="../img/youmei_chengyongxiang.jpg" class='img_employee' mode='aspectFit'></image>
 </view>

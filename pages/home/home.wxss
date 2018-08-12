@@ -53,3 +53,29 @@ swiper-item image {
 .list_products_item .summary {
   font-size: 14px;
 }
+
+.diliver {
+  background: #E0E3DA;
+  width: 99%;
+  margin: 0 auto;
+  height: 1px;
+}
+
+.hot_product {
+  display: flex;
+  flex-direction: row;
+  margin: 8rpx 0;
+}
+.hot_product image {
+  width: 44rpx;
+  height: 44rpx;
+  margin-top: 12rpx;
+  margin-left: 16rpx;
+}
+.hot_product text {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  color: #db639b;
+  margin: 10rpx;
+}
