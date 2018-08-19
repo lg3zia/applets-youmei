@@ -7,10 +7,16 @@ Page({
   data: {
     listNews: [{
       id: 0,
-      imgPath: 'https://thumbnail0.baidupcs.com/thumbnail/e00f6f174f69b5618e20a45397b08b0f?fid=1913150091-250528-634709536241375&time=1533459600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-RurU%2BLcNf22Cah47VT8cvf5bPQU%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5026409622566650616&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video',
+      imgPath: '../img/news/news1.jpg',
       title: "价格三千和价格一万的牙齿矫正区别在哪？",
-      summary: "冰瓷牙采用一对一私人订制，颠覆传统美牙工艺",
+      summary: "",
     },
+    {
+      id:1,
+      imgPath: '../img/news/news2.jpg',
+      title:"牙齿美白三种方法：冷光美白、烤瓷牙美白和贴面美白 →→最佳选择是贴面美白中的冰瓷牙（全瓷贴面）",
+      summary:""
+    }
     ],
   },
 

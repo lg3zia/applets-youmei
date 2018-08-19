@@ -14,7 +14,6 @@
     </view>
     <text bindtap='callMe'>{{contactNumber}}</text>
   </view>
-  <!-- <image src="{{img_hot}}" class='img_hot' />-->
   <view class='diliver'></view>
   <view class='hot_product'>
     <image src='../img/hot_product.png' mode='aspectFit'></image>

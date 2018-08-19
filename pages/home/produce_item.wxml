@@ -1,6 +1,6 @@
 <!--pages/home/produce_item.wxml-->
 <image class='product_img' src='{{currentItem.imgPath}}'>
 </image>
-<rich-text class='product_detail'>
+<text class='product_detail'>
 {{currentItem.detail}}
-</rich-text>
+</text>
