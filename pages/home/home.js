@@ -15,8 +15,8 @@ Page({
       '../img/banner/banner2.jpg',
       '../img/banner/banner3.jpg'
     ],
-    contactNumber: 19859180244,
-    contactAddress: "常州CBD",
+    contactNumber: 15961116858,
+    contactAddress: "常州创研港2A",
     listProducts: [{
       id: 0,
       imgPath: '../img/product/product1.jpg',
@@ -106,15 +106,15 @@ Page({
 
   goCompanyMap: function(e) {
     wx.openLocation({
-      latitude: 31.841076, // 纬度，范围为-90~90，负数表示南纬
-      longitude: 119.97746, // 经度，范围为-180~180，负数表示西经
+      latitude: 31.6808500000, // 纬度，范围为-90~90，负数表示南纬
+      longitude: 119.9684900000, // 经度，范围为-180~180，负数表示西经
       scale: 28, // 缩放比例          
     })
   },
 
   callMe: function(e) {
     wx.makePhoneCall({
-      phoneNumber: '19859180244' //仅为示例，并非真实的电话号码
+      phoneNumber: '15961116858'
     })
   },
 
